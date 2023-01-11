@@ -1,0 +1,21 @@
+.error {
+    color: red;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none;
+    text-align: left;
+    margin-left: 10px;
+}
+
+input[type=checkbox]
+{
+    /* Doble-tamaño Checkboxes */
+    -ms-transform: scale(1.5)!important;; /* IE */
+    -moz-transform: scale(1.5)!important;; /* FF */
+    -webkit-transform: scale(1.5)!important;; /* Safari y Chrome */
+    -o-transform: scale(1.5) !important;; /* Opera */
+    padding: 10px !important;
+}
